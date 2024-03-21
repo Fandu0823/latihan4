@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_a.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_fragment_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Fragment A"
+        android:layout_marginTop="32sp"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/dialog_button_fragment_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_marginTop="16sp"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
